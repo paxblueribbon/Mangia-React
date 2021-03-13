@@ -8,18 +8,18 @@ class OrTry extends Component {
       <div>
     <Row className="orTry">
           <div className="col">
-            <h4 class="text-center">Or Try One Of These</h4>
+            <h4 className="text-center">Or Try One Of These</h4>
           </div>
         </Row>
         <Row className="justify-content-center orTry">
-          <div class="col-4 col-md-3 text-center">
-            <div class="suggestionButton btn btn-outline-success text-center">&#x1F34E; Apple</div>
+          <div className="col-4 col-md-3 text-center">
+            <div className="suggestionButton btn btn-outline-success text-center">&#x1F34E; Apple</div>
           </div>
-          <div class="col-4 col-md-3 text-center">
-            <div class="suggestionButton btn btn-outline-success text-center">&#x1F34C; Banana</div>
+          <div className="col-4 col-md-3 text-center">
+            <div className="suggestionButton btn btn-outline-success text-center">&#x1F34C; Banana</div>
           </div>
-          <div class="col-4 col-md-3 text-center">
-            <div class="suggestionButton btn btn-outline-success text-center">&#x1F965; Coconut</div>
+          <div className="col-4 col-md-3 text-center">
+            <div className="suggestionButton btn btn-outline-success text-center">&#x1F965; Coconut</div>
           </div>
         </Row>
       </div>

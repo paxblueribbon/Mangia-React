@@ -10,7 +10,7 @@ class NavBar extends Component {
         <Row>
           <div className="col-3 col-md-2 col-xl-2 align-self-center">
             <a href="#">
-              <img src={logo} class="img-fluid float-left" alt="Mangia Verdure Logo"/>
+              <img src={logo} className="img-fluid float-left" alt="Mangia Verdure Logo"/>
             </a>
           </div>
           <div className="col bottom-column align-self-center pr-0">

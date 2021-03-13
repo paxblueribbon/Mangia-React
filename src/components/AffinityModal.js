@@ -11,31 +11,31 @@ class AffinityModal extends Component {
             <span aria-hidden="true">&#xD7;</span>
           </Button>
         </ModalHeader><ModalBody>
-          <div class="container-fluid">
+          <div className="container-fluid">
             <Form>
               <FormGroup>
                 <Row>
-                  <div class="col-12">
+                  <div className="col-12">
                     <Label for="mainIngName" className="col-form-label">Main Ingredient:</Label>
                   </div>
                 </Row>
                 <Row>
-                  <div class="col-12">
+                  <div className="col-12">
                     <Input readonly type="text" id="mainIngName"></Input>
                   </div>
                 </Row>
               </FormGroup>
               <FormGroup>
                 <Row>
-                  <div class="col-12">
+                  <div className="col-12">
                     <Label for="added-ing-text" className="col-form-label">Combines Well With:</Label>
                   </div>
                 </Row>
                 <Row id="secondaryIngs">
-                  <div class="col-10">
+                  <div className="col-10">
                     <Input type="text" id="added-ing-text" className="secIngInputs"></Input>
                   </div>
-                  <div class="col-2">
+                  <div className="col-2">
                     <Button id="ingPlusButton">+</Button>
                   </div>
                 </Row>

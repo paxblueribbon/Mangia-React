@@ -8,7 +8,7 @@ class SearchBar extends Component {
       <Row className="justify-content-center">
         <div className="col-10 col-md-6 mx-auto text-center">
           <FormGroup>
-            <Input type="search" id="ing1" rows="1" placeholder="Type An Ingredient" autofocus="autofocus" autocomplete="off" className="ingInput typeahead"></Input>
+            <Input type="search" id="ing1" rows="1" placeholder="Type An Ingredient" autofocus="autofocus" autocomplete="off" className="form-control ingInput typeahead"/>
           </FormGroup>
         </div>
       </Row>

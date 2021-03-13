@@ -5,7 +5,7 @@ import AffinityModal from './components/AffinityModal'
 import SearchBar from './components/SearchBar'
 import OrTry from './components/OrTry';
 import NonExist from './components/NonExist';
-
+import AffinitySection from './components/AffinitySection';
 
 class App extends Component {
   render() {
@@ -15,8 +15,9 @@ class App extends Component {
         <AffinityModal />
         <div className="container">
           <SearchBar />
-          <OrTry/>
-          <NonExist/>
+          <OrTry />
+          <NonExist />
+          <AffinitySection />
         </div>
       </div>
     );
