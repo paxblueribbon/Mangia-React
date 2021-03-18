@@ -24,8 +24,8 @@ class AffinitySection extends Component {
         <AffinityCard />
       )
     }
-
   }
+  
   render() {
     return (
       <>
@@ -60,26 +60,19 @@ class AffinitySection extends Component {
           </Row>
           <Row>
             <a className="btn col-6 ptl-3 disabled" role="button" href="#">
-              <Card class="card affinCard loadMoreCard">
-                <CardBody class="card-body loadMore">
-                  <h3 class="text-center">Load More</h3>
+              <Card className="affinCard loadMoreCard">
+                <CardBody className="loadMore">
+                  <h3 className="text-center">Load More</h3>
                 </CardBody>
               </Card>
             </a>
-            <a className="btn col-6 ptl-3 disabled" role="button" href="#">
-              <Card class="card affinCard loadMoreCard">
-                <CardBody class="card-body loadMore">
-                  <h3 class="text-center">Add A Flavor Profile</h3>
+            <a className="btn col-6 ptl-3" data-target="#newIngModal" role="button">
+              <Card className="affinCard loadMoreCard">
+                <CardBody className="loadMore">
+                  <h3 className="text-center">Add A Flavor Profile</h3>
                 </CardBody>
               </Card>
             </a>
-            {/* <a className="col-6 pt-3 btnCreate" role="button" data-target="#newIngModal" data-toggle="modal" role="button">
-              <Card class="card affinCard loadMoreCard">
-                <CardBody class="card-body loadMore">
-                  <h3 class="text-center">Add A Flavor Profile</h3>
-                </CardBody>
-              </Card>
-            </a> */}
           </Row>
         </Container>
       </>
