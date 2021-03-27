@@ -11,12 +11,12 @@ class NonExist extends Component {
             <h3>This item doesn&apos;t seem to exist.</h3>
           </div>
         </Row>
-        <row className="row nonExist text-center justify-content-center d-none">
+        <Row className="row nonExist text-center justify-content-center d-none">
           <div className="col-6 mx-auto">
             <div id="createButton" data-target="#newIngModal" data-toggle="modal" role="button" className="btn btn-success btnCreate">Click here
         to create it</div>
           </div>
-        </row>
+        </Row>
       </div>
     )
   }

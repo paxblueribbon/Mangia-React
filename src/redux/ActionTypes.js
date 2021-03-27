@@ -1,0 +1,3 @@
+export const GET_AFFINITIES = 'GET_AFFINITIES';
+export const GET_RECIPES = 'GET_RECIPES';
+export const GET_SUGGESTIONS = 'GET_SUGGESTIONS';
